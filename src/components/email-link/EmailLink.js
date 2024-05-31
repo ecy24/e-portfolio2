@@ -11,7 +11,7 @@ const EmailLink = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          javierarango.business@gmail.com
+          eyudun@gmail.com
         </a>
       </div>
     </div>

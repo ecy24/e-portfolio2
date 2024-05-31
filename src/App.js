@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./styles/GlobalStyles.css";
 import socialMediaData from "./data/socialMediaData";
 
@@ -15,6 +15,9 @@ import WorkExperience from "./components/WorkExperience";
 import Footer from "./components/Footer";
 
 function App() {
+  useEffect(() => {
+    document.title = "My Portfolio"; // Set your desired tab title here
+  }, []);
   return (
     <>
       <ParticleBackground />
