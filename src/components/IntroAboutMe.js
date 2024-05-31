@@ -18,14 +18,14 @@ const IntroAboutMe = () => {
 
           {/* My name */}
           <div className="col">
-            <h2 className={styles["my-name"]}> Javier Arango.</h2>
+            <h2 className={styles["my-name"]}> Ethan </h2>
           </div>
 
           <div className="w-100"></div>
 
           {/* Small fact */}
           <div className="col">
-            <h3 className={styles["small-fact"]}> I build things for fun.</h3>
+            <h3 className={styles["small-fact"]}> I build reliable systems </h3>
           </div>
 
           <div className="w-100"></div>
@@ -33,9 +33,9 @@ const IntroAboutMe = () => {
           {/* Big fact */}
           <div className="col">
             <p className={styles["big-fact"]}>
-              I am a third-year Computer Science undergraduate student at the
-              University of Florida, currently learning new technologies
-              and working on new projects.
+              I am a second-year Robotics System Engineering undergraduate student at the
+              Singapore Institute of Technology, currently learning new technologies
+              and theories while working on new projects (mainly automation/system engineering).
             </p>
           </div>
         </div>

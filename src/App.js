@@ -10,6 +10,8 @@ import IntroAboutMe from "./components/IntroAboutMe";
 import AboutMe from "./components/AboutMe";
 import Projects from "./components/Projects";
 import ContactMe from "./components/ContactMe";
+import Education from "./components/Education";
+import WorkExperience from "./components/WorkExperience";
 import Footer from "./components/Footer";
 
 function App() {
@@ -23,8 +25,9 @@ function App() {
       <div id="body-content">
         <IntroAboutMe />
         <AboutMe />
+        <Education />
+        <WorkExperience />
         <Projects />
-        <ContactMe />
         <Footer />
       </div>
     </>

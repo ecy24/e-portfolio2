@@ -12,48 +12,11 @@ const AboutMe = () => {
         <div className={`row ${styles["inner-content"]}`}>
           <div className="col">
             <p>
-              Hello there! My name is Javier, and I was born and raised in Cuba.
-              I came to the United States when I was 15 years old. My love for
-              technology started when I was little, but sadly Cuba didn't have
-              the technological advances to pursue my career.
+              Hello there! My name is Ethan, and I was born and raised in Singapore. When I was deciding what to do for my future, I decided that automation of a good industry as it was one of the emerging industries within Singapore. Also, I would like to have a degree within the engineering space as I was looking to build up my quantitative skills and programming capabilities as an engineering undergraduate.
             </p>
             <p>
-              When I came to the United States, I focused on leaning English,
-              programming languages, and new technologies. After my hard work
-              and dedication, I graduated high school on time and joined the Top
-              University in Florida (The University of Florida), where I am
-              currently pursuing a Bachelor's degree in Computer Science.
+              When I was starting up withing my degree, I was struggling to build a proper computational thinking and system thinking skills as I was inefficient in coding and systems engineering. As time goes on, I realized that programming needs to be extremely logical in thinking and it takes alot of practiceto become better. As for system engineering, I need to have a strong foundation in the subject and learn different applications and methods on how system engineering can be done and how project management tools such as agile are being implemented. As a learning process, I feel that the learning curve is steep and I struggle to build a proper foundation. However, I felt that the skills obtained are worth it.
             </p>
-            <p className={styles["technology-message"]}>
-              Recent technologies I've been working with include:
-            </p>
-
-            <div className={`row ${styles["programing-languages"]}`}>
-              {/* Technologies learned and Used */}
-              <div className="col-sm">
-                <ul className={styles["languages-ul"]}>
-                  {programingLanguages.map((techName) => (
-                    <TechnologyList
-                      key={techName.id}
-                      name={techName.name}
-                      iconName={
-                        techName.hasOwnProperty("iconName")
-                          ? techName.iconName
-                          : ""
-                      }
-                    />
-                  ))}
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div className={`col ${styles["profile"]}`}>
-            <img
-              className={`img-fluid ${styles["profile-image"]}`}
-              src={profileImg}
-              alt="Profile"
-            />
           </div>
         </div>
       </div>

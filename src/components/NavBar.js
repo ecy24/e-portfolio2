@@ -13,7 +13,6 @@ const NavBar = () => {
       >
         {/* Left Side Logo */}
         <a className="navbar-brand" href="#">
-          <img src={Logo} width="100px" alt="Javier Arango Logo" />
         </a>
 
         {/* Button when menu is collapsed */}
@@ -36,15 +35,11 @@ const NavBar = () => {
           {/* Center Side | Nav Bar content */}
           <ul className="navbar-nav text-center ms-auto">
             <NavBarLink name="About Me" link="#about-me" button="no" />
+            <NavBarLink name="Education" link="#education" button="no" />
+            <NavBarLink name="Work" link="#work-experience" button="no" />
             <NavBarLink name="Projects" link="#projects" button="no" />
             <NavBarLink name="Contact" link="#contact-me" button="no" />
             {/* Right Side | Resume */}
-            <NavBarLink
-              name="Resume"
-              link={resume}
-              button="yes"
-              target="_blank"
-            />
           </ul>
         </div>
       </nav>

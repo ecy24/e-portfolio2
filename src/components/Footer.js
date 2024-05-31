@@ -5,10 +5,6 @@ import styles from "../styles/Footer.module.css";
 const Footer = () => {
   return (
     <div className={styles["footer"]}>
-      <SocialMedia type="button" socials={socialMediaData} />
-      <p className={styles["my-credit"]}>
-        Created with &#9829; by Javier Arango
-      </p>
       <p className={styles["credits"]}>
         Inspired by{" "}
         <a
@@ -18,6 +14,17 @@ const Footer = () => {
           rel="noopener noreferrer"
         >
           Brittany Chiang
+        </a>
+      </p>
+      <p className={styles["credits"]}>
+        &{" "}
+        <a
+          className="link"
+          href="https://github.com/javier-arango/e-portfolio"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Javier Arango
         </a>
       </p>
     </div>
