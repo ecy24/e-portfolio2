@@ -13,7 +13,7 @@ const projectsData = [
       { id: uuidv4(), name: "Electrical & Electronic Engineering" },
       { id: uuidv4(), name: "Mechanical Engineering" },
     ],
-    link: "https://docs.google.com/presentation/d/1p593OXSwNd-e7dzqPqKCIEujqiLHcdg4B0mv2QUlDUU/edit#slide=id.g272a151bcd8_2_81",
+    link: "https://github.com/ecy24/e-portfolio",
   },
 ];
 
