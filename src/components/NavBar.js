@@ -36,9 +36,8 @@ const NavBar = () => {
           <ul className="navbar-nav text-center ms-auto">
             <NavBarLink name="About Me" link="#about-me" button="no" />
             <NavBarLink name="Education" link="#education" button="no" />
-            <NavBarLink name="Work" link="#work-experience" button="no" />
+            <NavBarLink name="Work Experience" link="#work-experience" button="no" />
             <NavBarLink name="Projects" link="#projects" button="no" />
-            <NavBarLink name="Contact" link="#contact-me" button="no" />
             {/* Right Side | Resume */}
           </ul>
         </div>
